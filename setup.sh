@@ -210,7 +210,7 @@ curl -sS ifconfig.me > /etc/myipvps
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "=====================[SCRIPT PREMIUM BY MARDHEX]===================="
+echo "=====================[SCRIPT XRAY ONLY PREMIUM]===================="
 echo ""  | tee -a log-install.txt
 echo "    [INFORMASI Shadowsocks-R & Shadowsocks]"  | tee -a log-install.txt
 echo "    ---------------------------------------" | tee -a log-install.txt
