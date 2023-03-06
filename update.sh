@@ -21,6 +21,7 @@ wget -q -O /usr/bin/rebootvps "https://raw.githubusercontent.com/IndoCore/Lock/m
 wget -q -O /usr/bin/mspeed "https://raw.githubusercontent.com/IndoCore/Lock/main/menu-speedtest.sh" && chmod +x /usr/bin/mspeed
 wget -q -O /usr/bin/mbandwith "https://raw.githubusercontent.com/IndoCore/Lock/main/menu-bandwith.sh" && chmod +x /usr/bin/mbandwith
 wget -q -O /usr/bin/restart "https://raw.githubusercontent.com/IndoCore/Lock/main/restart.sh" && chmod +x /usr/bin/restart
+wget -q -O /usr/bin/mspeed "https://raw.githubusercontent.com/IndoCore/Lock/main/menu-speedtest.sh" && chmod +x /usr/bin/mspeed
 wget -q -O /usr/bin/update "https://raw.githubusercontent.com/IndoCore/Lock/main/update.sh" && chmod +x /usr/bin/update
 echo -e " [INFO] Update Successfully"
 sleep 2
