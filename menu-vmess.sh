@@ -258,7 +258,7 @@ ask=`cat<<EOF
       "net": "ws",
       "path": "/mdxstore",
       "type": "none",
-      "host": "{domain}",
+      "host": "${domain}",
       "tls": "none"
 }
 EOF`
