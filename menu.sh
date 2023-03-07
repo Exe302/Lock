@@ -188,7 +188,7 @@ fi
 
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐$NC"
 echo -e "$COLOR1 $NC ${WH}Version      ${COLOR1}:${WH} $(cat /opt/.ver) Latest Version${NC}"
-echo -e "$COLOR1 $NC ${WH}License      ${COLOR1}:${WH}LifeTime${NC}"
+echo -e "$COLOR1 $NC ${WH}Lisensi      ${COLOR1}:${WH} Premium${NC}"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘$NC"
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
 echo -e "$COLOR1 ${NC}                ${WH}• MDXCLOUD NET 2023 •${NC}                 $COLOR1 $NC"
