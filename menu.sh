@@ -119,13 +119,13 @@ echo -e "$COLOR1└────────────────────�
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1 ${NC}  $COLOR1[INFO]${NC} Check for Script updates"
 sleep 2
-wget -q -O /root/install_up.sh "https://raw.githubusercontent.com/IndoCore/Lock/main/install-up.sh" && chmod +x /root/install_up.sh
+wget -q -O /root/install_up.sh "https://raw.githubusercontent.com/Exe302/Lock/main/install-up.sh" && chmod +x /root/install_up.sh
 sleep 2
 ./install_up.sh
 sleep 5
 rm /root/install_up.sh
 rm /opt/.ver
-version_up=$( curl -sS https://raw.githubusercontent.com/IndoCore/Lock/main/versi)
+version_up=$( curl -sS https://raw.githubusercontent.com/Exe302/Lock/main/versi)
 echo "$version_up" > /opt/.ver
 echo -e "$COLOR1 ${NC}  $COLOR1[INFO]${NC} Successfully Up To Date!"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
@@ -146,7 +146,7 @@ upminutes=`uptime -p | awk '{print $4,$5}' | cut -d , -f1`
 uptimecek=`uptime -p | awk '{print $6,$7}' | cut -d , -f1`
 cekup=`uptime -p | grep -ow "day"`
 IPVPS=$(curl -s ipinfo.io/ip )
-serverV=$( curl -sS https://raw.githubusercontent.com/IndoCore/Lock/main/versi)
+serverV=$( curl -sS https://raw.githubusercontent.com/Exe302/Lock/main/versi)
 uis="${COLOR1}Premium Version$NC"
 echo -e "$COLOR1 $NC ${WH}User Roles     ${COLOR1}: ${WH}$uis"
 if [ "$cekup" = "day" ]; then

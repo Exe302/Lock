@@ -15,7 +15,7 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 
 apt install rclone -y
 printf "q\n" | rclone config
-wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/IndoCore/Lock/main/rclone.conf"
+wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/Exe302/Lock/main/rclone.conf"
 git clone  https://github.com/magnific0/wondershaper.git
 cd wondershaper
 make install
@@ -39,10 +39,10 @@ logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
 cd /usr/bin
-wget -O autobackup "https://raw.githubusercontent.com/IndoCore/Lock/main/autobackup.sh"
-wget -O backup "https://raw.githubusercontent.com/IndoCore/Lock/main/backup.sh"
-wget -O restore "https://raw.githubusercontent.com/IndoCore/Lock/main/restore.sh"
-wget -O limitspeed "https://raw.githubusercontent.com/IndoCore/Lock/main/limitspeed.sh"
+wget -O autobackup "https://raw.githubusercontent.com/Exe302/Lock/main/autobackup.sh"
+wget -O backup "https://raw.githubusercontent.com/Exe302/Lock/main/backup.sh"
+wget -O restore "https://raw.githubusercontent.com/Exe302/Lock/main/restore.sh"
+wget -O limitspeed "https://raw.githubusercontent.com/Exe302/Lock/main/limitspeed.sh"
 chmod +x autobackup
 chmod +x backup
 chmod +x restore

@@ -31,7 +31,6 @@ cp /etc/group backup/
 cp /etc/shadow backup/
 cp /etc/gshadow backup/
 cp /etc/crontab backup/
-cp -r /var/lib/alexxa-pro/ backup/alexxa-pro
 cp -r /etc/xray backup/xray
 cp -r /home/vps/public_html backup/public_html
 cd /root

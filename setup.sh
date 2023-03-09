@@ -94,7 +94,7 @@ fi
 fi
 
 echo ""
-wget -q https://raw.githubusercontent.com/IndoCore/Lock/main/dependencies.sh;chmod +x dependencies.sh;./dependencies.sh
+wget -q https://raw.githubusercontent.com/Exe302/Lock/main/dependencies.sh;chmod +x dependencies.sh;./dependencies.sh
 rm dependencies.sh
 clear
 
@@ -148,27 +148,27 @@ echo -e "${tyblue}|          PROCESS INSTALLED UDPGW          |${NC}"
 echo -e "${tyblue}'------------------------------------------'${NC}"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/IndoCore/Lock/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/Exe302/Lock/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 #Install Xray
 echo -e "${tyblue}.------------------------------------------.${NC}"
 echo -e "${tyblue}|          PROCESS INSTALLED XRAY          |${NC}"
 echo -e "${tyblue}'------------------------------------------'${NC}"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/IndoCore/Lock/main/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/Exe302/Lock/main/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 #Install AutoBackup
 echo -e "${tyblue}.------------------------------------------.${NC}"
 echo -e "${tyblue}|          PROCESS INSTALLED AUTO BACKUP           |${NC}"
 echo -e "${tyblue}'------------------------------------------'${NC}"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/IndoCore/Lock/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/Exe302/Lock/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 #Download Extra Menu
 echo -e "${tyblue}.------------------------------------------.${NC}"
 echo -e "${tyblue}|           DOWNLOAD EXTRA MENU            |${NC}"
 echo -e "${tyblue}'------------------------------------------'${NC}"
 sleep 2
-wget https://raw.githubusercontent.com/IndoCore/Lock/main/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/Exe302/Lock/main/update.sh && chmod +x update.sh && ./update.sh
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
@@ -195,7 +195,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS https://raw.githubusercontent.com/IndoCore/Lock/main/version  )
+serverV=$( curl -sS https://raw.githubusercontent.com/Exe302/Lock/main/version  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11

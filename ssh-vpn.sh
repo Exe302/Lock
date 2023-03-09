@@ -18,7 +18,7 @@ commonname=mdxcloud
 email=admin@mdx.net
 
 # simple password minimal
-curl -sS https://raw.githubusercontent.com/IndoCore/Lock/main/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
+curl -sS https://raw.githubusercontent.com/Exe302/Lock/main/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
 chmod +x /etc/pam.d/common-password
 
 # go to root
@@ -127,9 +127,9 @@ apt -y install nginx
 cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/IndoCore/Lock/main/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/Exe302/Lock/main/nginx.conf"
 rm /etc/nginx/conf.d/vps.conf
-wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/IndoCore/Lock/main/vps.conf"
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/Exe302/Lock/main/vps.conf"
 /etc/init.d/nginx restart
 
 mkdir /etc/systemd/system/nginx.service.d
@@ -139,7 +139,7 @@ systemctl daemon-reload
 service nginx restart
 # install badvpn
 cd
-wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/IndoCore/Lock/main/newudpgw"
+wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/Exe302/Lock/main/newudpgw"
 chmod +x /usr/bin/badvpn-udpgw
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7100 --max-clients 500' /etc/rc.local
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 500' /etc/rc.local
@@ -227,9 +227,9 @@ echo 'Config file is at /usr/local/ddos/ddos.conf'
 echo 'Please send in your comments and/or suggestions to zaf@vsnl.com'
 # download script
 cd /usr/bin
-wget -O speedtest "https://raw.githubusercontent.com/IndoCore/Lock/main/speedtest_cli.py"
-wget -O xp "https://raw.githubusercontent.com/IndoCore/Lock/main/xp.sh"
-wget -O auto-set "https://raw.githubusercontent.com/IndoCore/Lock/main/auto-set.sh"
+wget -O speedtest "https://raw.githubusercontent.com/Exe302/Lock/main/speedtest_cli.py"
+wget -O xp "https://raw.githubusercontent.com/Exe302/Lock/main/xp.sh"
+wget -O auto-set "https://raw.githubusercontent.com/Exe302/Lock/main/auto-set.sh"
 chmod +x speedtest
 chmod +x xp
 chmod +x auto-set
